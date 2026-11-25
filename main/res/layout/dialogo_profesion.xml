@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioArquero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/profesion_arquero" />
+
+        <RadioButton
+            android:id="@+id/radioGuerrero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profesion_guerrero" />
+
+        <RadioButton
+            android:id="@+id/radioMago"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profesion_mago" />
+
+        <RadioButton
+            android:id="@+id/radioHerrero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profesion_herrero" />
+
+        <RadioButton
+            android:id="@+id/radioMinero"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profesion_minero" />
+    </RadioGroup>
+</LinearLayout>
